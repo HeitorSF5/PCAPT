@@ -1,5 +1,7 @@
 # Player Character Also Party Talks
-Fear &amp; Hunger 2: Termina - Mod. 
+Fear &amp; Hunger 2: Termina Mod. <br>
+
+<h2> What is it?</h2>
 This mod makes it so that your chosen main character (PC) also participates in "Party Talk" (the skill). This includes interjections made by and towards the PC. This also means that you will end up talking to yourself out loud when alone in your party.
 
 <h2>Recommended for a first playthrough?</h2>
@@ -10,7 +12,7 @@ No bugs that I'm aware of so far, but there are odd behaviors that will happen b
 <ul>
 <li>As noted before, you will talk to yourself when alone and there will be narration about your actions in the third person</li>
 <li>Whatever you named your PC as will be ignored and the character's default name will be displayed in the Party Talk screen. This is because the name is hard coded into the dialogue since the only character with a variable name (namely the PC) is not expected to talk, so your Marinaz will just be Marina. This does not rename you in anyway outside of the Party Talk window pop up.</li>
-<li>There are some dialogues that you are prompted for a reaction or comment, like when O'saa is [spoiler]"whispering to himself"[/spoiler], in which you will still get a prompt to ask what was it that he said and he will respond to you. So it's extra bizarre if you are playing as O'saa solo then you ask yourself what was it that you just whispered to yourself then you answer "nothing" back. Can't really fix this without overhauling how the Party Talk event is structured. Which I won't.</li>
+<li>There are some dialogues that you are prompted for a reaction or comment, like when O'saa is "whispering to himself", in which you will still get a prompt to ask what was it that he said and he will respond to you. So it's extra bizarre if you are playing as O'saa solo then you ask yourself what was it that you just whispered to yourself then you answer "nothing" back. Can't really fix this without overhauling how the Party Talk event is structured. Which I won't.</li>
 <li>During the prologue when you get to the plank dimension you can use the Party Talk and you will end up seeing the same comment that your character would give when they revisit the place later in the game, which will be utter nonsense if this is your first time playing and might end up being a red herring about your character knowing what's up or not.</li>
 </ul>
 
