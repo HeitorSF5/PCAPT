@@ -26,7 +26,7 @@ Then just run the script with Python. In case you put it in the wrong folder it 
 Then just make it so you run the <b>.py</b> file with Python.
 
 <h2>Uninstall</h2>
-To revert to the vanilla game just verify your steam game integrity cache and that will do it. If you're not on steam I sure hope you kept a backup of your " Fear & Hunger 2 Termina/www/data " directory, which you just copy and paste your backup into the game directory.
+To revert to the vanilla game just verify your steam game integrity cache and that will do it. If you're not on steam I sure hope you kept a backup of your <code>Fear & Hunger 2 Termina/www/data</code> directory, which you just copy and paste your backup into the game directory.
 
 <h2>Compatibility</h2>
 Because I am surgically altering each and every map file it should be completely compatible with any other mod that does not mess with Party Talk activation parameters. YES, it should even be compatible with mods that alter what is [b]actually said[/b], adds new dialogue, removes them, or whatnot. The only thing this script does is change the activation parameters for Party Talk that are [i]“Character is not the Player Character”[/i] to [i]“Character being in party”.[/i]
