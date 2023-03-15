@@ -22,6 +22,9 @@ for map_number in range(200):
                             if len(page_list["parameters"]) == 3 and page_list["parameters"][0] == 0:
                                 # these are the checks for the conditions in which a certain Party Talk dialogue per character will play or not. The ones I'm changing all have 3 values in their parameter list so it's the way to narrow them down. And also the ones I want to change always have the "0" as the first value.
                                 parameter = page_list["parameters"]
+                                
+                                if parameter is None:
+                                    continue
 
                                 match parameter[1]:
                                     # Marina
