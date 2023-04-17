@@ -1,7 +1,7 @@
 import json
 import multiprocessing
 import os
-import time
+# import time
 
 CHARACTER_PARAMETER_MAP = {
     242: 3,  # Marina
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     print("This script will alter every MapXXX.json file it finds. BACKUP YOUR FILES IF YOU'RE NOT ON STEAM!")
     input("Press ENTER to continue...")
 
-    start_time = time.perf_counter()
+    # start_time = time.perf_counter()
 
     pool = multiprocessing.Pool(processes=os.cpu_count())
 
@@ -73,5 +73,5 @@ if __name__ == "__main__":
     pool.close()
     pool.join()
 
-    end_time = time.perf_counter()
-    print(f"Total time taken: {end_time - start_time:.6f} seconds")
+    # end_time = time.perf_counter()
+    # print(f"Total time taken: {end_time - start_time:.6f} seconds")
