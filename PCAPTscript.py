@@ -9,7 +9,7 @@ files_found = False
 for map_number in range(200):
     file = "Map" + "{:03d}".format(map_number) + ".json"
     try:
-        with open (file, "r+") as json_file:
+        with open (file, "r+", encoding="utf-8") as json_file:
             data = json.load(json_file)
             files_found = True
             for event in data["events"]:
