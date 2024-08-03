@@ -18,6 +18,9 @@ CHARACTER_PARAMETER_MAP = {
     2408: 32,  # Caligura
     2409: 33,  # Henryk
     2410: 34,  # Pav
+    
+    # Modded Characters
+    375: 9, # Maddalena
 }
 
 def update_map(map_number):
